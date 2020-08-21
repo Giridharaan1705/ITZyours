@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Kalam&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body background="bg.jpeg" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(bg.jpeg);
+height: 100vh;
+background-size: cover;
+background-position: center;">
+    <div>
+        <center><h1>Welcome to itzyours</h1></center>
+    </div>
+<center><h2>Complaint Form</h2></center>
+
+<div class="container" style="margin: auto; width: 60%;">
+  <form action="connect.php" method="POST">
+    <label for="name">Name : </label>
+    <input type="text" id="name" name="name">
+
+    <label for="mobno">Contact Number : </label>
+    <input type="number" id="mobno" name="mobno">
+
+    <label for="mobmodel">Mobile Model : </label>
+    <input type="text" id="mobmodel" name="mobmodel">
+
+    <label for="imei">IMEI Number : </label>
+    <input type="number" id="IMEI" name="IMEI">
+
+    <label for="fir">FIR Number : </label>
+    <input type="number" id="FIR" name="FIR">
+    
+    <label for="address">Address : </label>
+    <textarea id="address" name="address" style="height:200px"></textarea>
+
+    <center><input type="submit" name="submit" value="File Complaint"></center>
+  </form>
+</div>
+
+</body>
+</html>
